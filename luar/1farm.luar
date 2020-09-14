@@ -25,10 +25,11 @@ else
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/version.lua", localPath .."/luar/version.lua")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/1farm.luar", localPath .."/luar/1farm.luar")
     httpDownload("https://raw.githubusercontent.com/Paladiex/PalPowerUp/master/imageupdater.lua", localPath .."/luar/imageupdater.lua")
-    scriptExit("You have Updated PalPowerUp bot!")
+    scriptExit("You have Updated Auto Zfarm bot!")
 end
 
 ------ startup -----
+
 touchList[index] = {target =  "packx.png", region = Region(1776, -32, 152, 152), id = "packx", action = 'click'}
 index = index + 1
 
@@ -45,10 +46,12 @@ touchList[index] = {target =  "shipmentcollx.png", region = Region(1548, 124, 15
 index = index + 1
 
 ------ other -----
+
 touchList[index] = {target =  "helpfriends.png", region = Region(1577, 855, 152, 152), id = "helpfriends", action = 'click'}
 index = index + 1
 
 ------ Tower -----
+
 touchList[index] = {target =  "towerhelp.png", region = Region(1728, 674, 152, 152), id = "towerhelp", action = 'click'}
 index = index + 1
 
