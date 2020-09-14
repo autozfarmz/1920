@@ -1,1 +1,13 @@
-
+----- created by AnkuLua snap and play script ------
+immersive = true
+setImmersiveMode(immersive)
+genVersion = "8.3.0-PRO2"
+setAutoGameArea = true
+pcall (autoGameArea, setAutoGameArea)
+scriptDimension = 1920
+Settings:setScriptDimension(true, scriptDimension)
+Settings:setCompareDimension(true, scriptDimension)
+local index = 1
+touchList = {}
+waitList = {}
+startApp("com.kingsgroup.ww2")
