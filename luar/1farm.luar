@@ -121,10 +121,8 @@ index = index + 1
 touchList[index] = {target =  "alloyplantgathermarch.png", region = Region(1403, 866, 252, 252), id = "alloyplantgathermarch", action = 'click'}
 index = index + 1
 
-touchList[index] = {target =  "alliancerssterrrssxx.png", region = Region(1301, 967, 252, 252), id = "alliancerssterrrssxx", action = 'click'}
-index = index + 1
-
 touchList[index] = {target =  "base.png", region = Region(1760, 1042, 252, 252), id = "base", action = 'click'}
 index = index + 1
+
 ------ End -----
 
