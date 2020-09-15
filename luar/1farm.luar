@@ -92,26 +92,26 @@ index = index + 1
 
 ------ AlliancePlant -----
 
-touchList[index] = {target =  "region.png", region = Region(1693, 1101, 152, 152), id = "region", action = 'click(matchResult); wait(5)'}
+touchList[index] = {target =  "region.png", region = Region(1755, 1044, 252, 252), id = "region", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
-touchList[index] = {target =  "alliancetab.png", region = Region(1058, 1074, 152, 152), id = "alliancetab", action = 'click'}
+touchList[index] = {target =  "alliancetab.png", region = Region(1058, 1074, 152, 152), id = "alliancetab", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
-touchList[index] = {target =  "allianceterr.png", region = Region(963, 247, 152, 152), id = "allianceterr", action = 'click'}
+touchList[index] = {target =  "allianceterr.png", region = Region(963, 247, 152, 152), id = "allianceterr", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
-touchList[index] = {target =  "allianceterrrss.png", region = Region(592, 169, 152, 152), id = "allianceterrrss", action = 'click'}
+touchList[index] = {target =  "allianceterrrss.png", region = Region(592, 169, 152, 152), id = "allianceterrrss", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 touchList[index] = {target =  "rssup.png", region = Region(1252, 1012, 152, 152), id = "rssup", action = 'dragDrop',
                     target2 = "rssup2.png", region2 = Region(1234, 314, 152, 152)}
 index = index + 1
 
-touchList[index] = {target =  "allianceterrrssx.png", region = Region(1350, 968, 152, 152), id = "allianceterrrssx", action = 'click'}
+touchList[index] = {target =  "allianceterrrssx.png", region = Region(1350, 968, 152, 152), id = "allianceterrrssx", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
-touchList[index] = {target =  "allianceterrrssxx.png", region = Region(1353, 1028, 152, 152), id = "allianceterrrssxx", action = 'click(matchResult); wait(10)'}
+touchList[index] = {target =  "allianceterrrssxx.png", region = Region(1353, 1028, 152, 152), id = "allianceterrrssxx", action = 'click(matchResult); wait(1)'}
 index = index + 1
 
 touchList[index] = {target =  "alliancealloyplant.png", region = Region(952, 561, 152, 152), id = "alliancealloyplant", action = 'click(matchResult); wait(10)'}
@@ -238,3 +238,7 @@ index = index + 1
 
 touchList[index] = {target =  "ddx.png", region = Region(1761, -22, 152, 152), id = "ddx", action = 'click'}
 index = index + 1
+------ 68 -----
+touchList[index] = {target =  "region.png", region = Region(1729, 1018, 152, 152), id = "region", action = 'click'}
+index = index + 1
+
