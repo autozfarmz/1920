@@ -14,17 +14,17 @@ startApp("com.kingsgroup.ww2")
 commonLib = loadstring(httpGet("https://raw.githubusercontent.com/AnkuLua/commonLib/master/commonLib.lua"))()
 
         --- This checks the version number on github to see if an update is needed, then downloads the newest files ---
-getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/version.lua"))
+getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/version.lua"))
 latestVersion = getNewestVersion()
-currentVersion = dofile(localPath .."luar/version.lua")
+currentVersion = dofile(localPath .."version.lua")
 print (currentVersion)
 print (latestVersion)
 if currentVersion == latestVersion then
     toast ("You are running the most current version!")
 else
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/version.lua", localPath .."luar/version.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/version.lua", localPath .."version.lua")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/1farm.luar", localPath .."luar/1farm.luar")
-    httpDownload("https://raw.githubusercontent.com/Paladiex/PalPowerUp/master/imageupdater.lua", localPath .."luar/imageupdater.lua")
+    httpDownload("https://raw.githubusercontent.com/Paladiex/PalPowerUp/master/imageupdater.lua", localPath .."imageupdater.lua")
     scriptExit("You have Updated Auto Zfarm bot!")
 end
 
