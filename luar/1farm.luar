@@ -22,7 +22,7 @@ print (latestVersion)
 if currentVersion == latestVersion then
     toast ("You are running the most current version!")
 else
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/version.lua", localPath .."version.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/version.lua", localPath .."version.lua")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/1farm.luar", localPath .."luar/1farm.luar")
     httpDownload("https://raw.githubusercontent.com/Paladiex/PalPowerUp/master/imageupdater.lua", localPath .."imageupdater.lua")
     scriptExit("You have Updated Auto Zfarm bot!")
