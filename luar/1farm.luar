@@ -21,25 +21,21 @@ print (latestVersion)
 if currentVersion == latestVersion then
     toast ("You are running the most current version!")
 else
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/version.lua", localPath .."version.lua")
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farm.luar", localPath .."luar/1farm.luar")
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/imageupdater.luar", localPath .."luar/imageupdater.luar")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/version.lua", localPath .."version.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/1farm.luar", localPath .."luar/1farm.luar")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/imageupdater.lua", localPath .."imageupdater.lua")
     scriptExit("You have Updated Auto Zfarm bot!")
 end
 
 ------ Startup -----
 touchList[index] = {target =  "topupx.png", region = Region(1591, 99, 252, 252), id = "topupx", action = 'click'}
 index = index + 1
-
 touchList[index] = {target =  "packx.png", region = Region(1709, -82, 252, 252), id = "packx", action = 'click'}
 index = index + 1
-
 touchList[index] = {target =  "shipmentcollect.png", region = Region(607, 803, 252, 252), id = "shipmentcollect", action = 'click'}
 index = index + 1
-
 touchList[index] = {target =  "shipmentcollectx.png", region = Region(1491, 83, 252, 252), id = "shipmentcollectx", action = 'click'}
 index = index + 1
-
 touchList[index] = {target =  "eventx.png", region = Region(1717, -84, 252, 252), id = "eventx", action = 'click'}
 index = index + 1
 
@@ -47,7 +43,35 @@ index = index + 1
 
 touchList[index] = {target =  "helpfriends.png", region = Region(1515, 801, 252, 252), id = "helpfriends", action = 'click'}
 index = index + 1
+touchList[index] = {target =  "timedsupplies.png", region = Region(844, 407, 152, 152), id = "timedsupplies", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "timedsuppliescollect.png", region = Region(835, 750, 152, 152), id = "timedsuppliescollect", action = 'click'}
+index = index + 1
 
+------ wall -----
+touchList[index] = {target =  "wall.png", region = Region(86, 360, 152, 152), id = "wall", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "walldefense.png", region = Region(345, 655, 152, 152), id = "walldefense", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "walldefensegold.png", region = Region(602, 935, 152, 152), id = "walldefensegold", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "walldefenserepair.png", region = Region(1174, 941, 152, 152), id = "walldefenserepair", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "walldefensex.png", region = Region(1768, -37, 152, 152), id = "walldefensex", action = 'click'}
+index = index + 1
+
+------ Trap -----
+touchList[index] = {target =  "trap.png", region = Region(227, 42, 152, 152), id = "trap", action='for i = 1, 2 do click(matchResult); wait(1) end'}
+index = index + 1
+touchList[index] = {target =  "trapbuild.png", region = Region(340, 241, 152, 152), id = "trapbuild", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "trapbuildclock.png", region = Region(1280, 704, 152, 152), id = "trapbuildclock", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "norssgold.png", region = Region(955, 815, 152, 152), id = "norssgold", action = 'findA_ClickB',
+                    target2 = "norssgold2.png", region2 = Region(1448, 179, 152, 152)}
+index = index + 1
+touchList[index] = {target =  "trapbuildclockx.png", region = Region(1770, -37, 152, 152), id = "trapbuildclockx", action = 'click'}
+index = index + 1
 
 ------ Tower -----
 touchList[index] = {target =  "towerhelper.png", region = Region(1677, 631, 252, 252), id = "towerhelper", action = 'click'}
@@ -124,5 +148,46 @@ index = index + 1
 touchList[index] = {target =  "base.png", region = Region(1760, 1042, 252, 252), id = "base", action = 'click'}
 index = index + 1
 
+------ AllianceTab -----
+touchList[index] = {target =  "alliancetab.png", region = Region(1056, 1080, 152, 152), id = "alliancetab", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftpacks.png", region = Region(957, 818, 152, 152), id = "giftpacks", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftpacksclaimall.png", region = Region(1091, 961, 152, 152), id = "giftpacksclaimall", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftpacksclaimallx.png", region = Region(1363, 228, 152, 152), id = "giftpacksclaimallx", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftpacksclaimallxx.png", region = Region(-24, -34, 152, 152), id = "giftpacksclaimallxx", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftcrates.png", region = Region(1011, 524, 152, 152), id = "giftcrates", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftcratesalliance.png", region = Region(630, -29, 152, 152), id = "giftcratesalliance", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftcratesalliancesend.png", region = Region(243, 883, 152, 152), id = "giftcratesalliancesend", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftcratelocker.png", region = Region(1313, -28, 152, 152), id = "giftcratelocker", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "giftcratelockeropen.png", region = Region(200, 689, 152, 152), id = "giftcratelockeropen", action='for i = 1, 20 do click(matchResult); wait(1) end'}
+index = index + 1
+touchList[index] = {target =  "giftcratelockerback.png", region = Region(-12, -29, 152, 152), id = "giftcratelockerback", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "donate.png", region = Region(1280, 263, 152, 152), id = "donate", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "donaterewards.png", region = Region(1505, 135, 152, 152), id = "donaterewards", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "donatestar.png", region = Region(1395, 278, 152, 152), id = "donatestar", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "donategreen.png", region = Region(498, 922, 152, 152), id = "donategreen", action='for i = 1, 25 do click(matchResult); wait(1) end'}
+index = index + 1
+
+touchList[index] = {target =  "donatenogold.png", region = Region(791, 722, 152, 152), id = "donatenogold", action = 'findA_ClickB',
+                    target2 = "donatenogold2.png", region2 = Region(1358, 284, 152, 152)}
+index = index + 1
+touchList[index] = {target =  "donategreenx.png", region = Region(1609, 104, 152, 152), id = "donategreenx", action = 'click'}
+index = index + 1
+touchList[index] = {target =  "donateback.png", region = Region(-23, -32, 152, 152), id = "donateback", action = 'click'}
+index = index + 1
+
 ------ End -----
+
 
