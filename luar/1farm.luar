@@ -13,7 +13,7 @@ waitList = {}
 startApp("com.kingsgroup.ww2")
 
         --- This checks the version number on github to see if an update is needed, then downloads the newest files ---
-getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/version.lua"))
+getNewestVersion = loadstring(httpGet("https://raw.githubusercontent.com/autozfarmz/1920/master/version.lua"))
 latestVersion = getNewestVersion()
 currentVersion = dofile(localPath .."version.lua")
 print (currentVersion)
@@ -23,7 +23,7 @@ if currentVersion == latestVersion then
 else
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/version.lua", localPath .."version.lua")
     httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/1farm.luar", localPath .."luar/1farm.luar")
-    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/imageupdater.lua", localPath .."imageupdater.lua")
+    httpDownload("https://raw.githubusercontent.com/autozfarmz/auto1200x1920/master/luar/imageupdater.luar", localPath .."luar/imageupdater.luar")
     scriptExit("You have Updated Auto Zfarm bot!")
 end
 
@@ -189,5 +189,3 @@ touchList[index] = {target =  "donateback.png", region = Region(-23, -32, 152, 1
 index = index + 1
 
 ------ End -----
-
-
