@@ -64,5 +64,4 @@ httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1far
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/donatenogold2.png", imagePath .."donatenogold2.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/donategreenx.png", imagePath .."donategreenx.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/donateback.png", imagePath .."donateback.png")
-httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/base.png", imagePath .."base.png")
 scriptExit("You have Updated the auto zFarmz image library!")
