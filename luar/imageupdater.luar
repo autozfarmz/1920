@@ -1,3 +1,4 @@
+    toast ("Updating images")
 localPath = scriptPath()
 imagePath = (localPath .. "luar/1farmImage/")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/topupx.png", imagePath .."topupx.png")
@@ -6,7 +7,6 @@ httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1far
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/shipmentcollectx.png", imagePath .."shipmentcollectx.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/eventx.png", imagePath .."eventx.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/helpfriends.png", imagePath .."helpfriends.png")
-
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/timedsupplies.png", imagePath .."timedsupplies.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/timedsuppliescollect.png", imagePath .."timedsuppliescollect.png")
 httpDownload("https://raw.githubusercontent.com/autozfarmz/1920/master/luar/1farmImage/wall.png", imagePath .."wall.png")
